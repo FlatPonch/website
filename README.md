@@ -2,6 +2,6 @@
 
 ### List
 
-main(Under construction):http://flatponch.github.io/home.html
+main(Under construction):http://flatponch.github.io/index.html
 
 Abehiroshi no homepage like:http://flatponch.github.io/abehiroshi.html
