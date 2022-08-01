@@ -6,9 +6,9 @@
 	"bpm": 90,
 	"startTime": 0,
 	"level": {
-		"easy": "Shake!",
-		"normal": "Shake!",
-		"hard": "Shake!"
+		"easy": "pls",
+		"normal": "push",
+		"hard": "hard"
 	},
 	"map": {
 		"easy": [
