@@ -2,10 +2,10 @@
 
 ### Site Map
 
-main:https://flatponch.github.io
+my discord server:https://discord.flatponch.xyz
 
 OldOS(Not Abehiroshi):https://flatponch.github.io/oldos
 
-stuff:https://flatponch.github.io/otintin
+kotiriku:https://discord.flatponch.xyz/kotiriku
 
 click pls:https://flatponch.github.io/lol
