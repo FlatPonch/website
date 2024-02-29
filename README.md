@@ -2,9 +2,9 @@
 
 ### Site Map
 
-my discord server:https://flatponch.github.io
+website:https://flatponch.github.io
 
-website:https://flatponch.github.io/oldwebsite/
+discord server:https://flatponch.github.io/discord/
 
 kotiriku server:https://flatponch.github.io/kotiriku
 
