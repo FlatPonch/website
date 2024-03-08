@@ -1,137 +1,113 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="description" content="FlatPonch のホームページ">
-    <link rel="icon" type="image/png" href="./Images/kleemiddle.jpg">
-    <link href="index_files/index.css" rel="stylesheet" type="text/css" media="all">
-  <title>FlatPonch のホームページ</title>
-  </head>
-  <body>
-    <br>
-    <h1 align="center">FlatPonch のホームページ</h1>
-    <table align="center">
-      <tbody><tr>
-        <td rowspan="2"><img src="./Images/kleeicon2.jpg" width="300" height="300" border="0"><br>
-          <br>
-          <table width="256">
-            <tbody><tr>
-              <td width="14">&nbsp;</td>
-              <td width="230">泥井戸 大好気 (どろいど だいすき) (仮名)<br></td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>生年月日 2008年1月16日<br></td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>血液 不明(O型？)<br></td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td><a href="https://youtu.be/dQw4w9WgXcQ">Click Me</a></td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td colspan="2"><br>
-                Contact me<br>
-                <br>
-                Mail:<a href="mailto:flatponch@proton.me" target="_blank">flatponch@proton.me</a></td>
-            </tr>
-        </tbody></table>      
-          <br>
-          所属<strong>:</strong><br>
-          <a href="https://mncrp.github.io" target="_blank">monochrome Project.</a>(Monot for Desktop部門)<br>
-          〒818-1919&nbsp; <br>福岡県<br>フラポンビル<br>
-         </td>
-        <td>&nbsp;</td>
-        <td><div align="center">★★★　Social Media　★★★</div></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td>
-     
-        <table width="100%" cellpadding="0" border="0">
-              <tbody><tr>
-                <td valign="bottom" align="left"><hr width="100%" size="1"></td>
-              </tr>
-          </tbody></table>
-           <table width="100%" cellpadding="0" border="0">
-              <tbody><tr>
-                <td valign="top" align="left"><strong>・Discord</strong></td>
-              </tr>
-          </tbody></table>
-           <table cellpadding="0" border="0">
-               <tbody><tr>
-               <td width="70" valign="top" align="left">&nbsp;</td>
-               <td>
-            <strong><a href="https://flatponch.xyz/discord" target="_blank">Discord Server</a><br>
-            </strong></td>
-             </tr>
-          </tbody></table>
-    
-    <!-- start　-->
-           <table width="100%" cellpadding="0" border="0">
-              <tbody><tr>
-                <td valign="bottom" align="left"><hr width="100%" size="1"></td>
-              </tr>
-          </tbody></table>
-    
-           <table width="100%" cellpadding="0" border="0">
-              <tbody><tr>
-                <td valign="top" align="left"><strong>・Linktree</strong></td>
-              </tr>
-          </tbody></table>
-    
-           <table cellpadding="0" border="0">
-               <tbody><tr>
-               <td width="70" valign="top" align="left"></td>
-               <td><br><b>
-            <a href="https://linktr.ee/FlatPonch" target="_blank">Social Media</a><br>
-             </b></td></tr>
-          </tbody></table>
-           <table cellpadding="0" border="0">
-               <tbody><tr>
-               <td width="70" valign="top" align="left"></td>
-               <td><br>
-       </td></tr></tbody></table>
-    <!-- end　-->
-    
-           <table width="100%" cellpadding="0" border="0">
-              <tbody><tr>
-                <td valign="bottom" align="left"><hr width="100%" size="1"></td>
-              </tr>
-          </tbody></table>
-        <b>当サイトの内容、テキスト、画像等の無断転載・無断使用を固く禁じます。<br>
-        また、まとめサイト等への引用を固く禁じます。<br></b><br>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlatPonch's Website</title>
+  <style>
+@font-face {
+    font-family: "Futura";
+    src: url("./fonts/Futura-Medium-01.ttf") format('truetype');
+}
 
-        
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        </td>
-      </tr>
-    </tbody></table>
-    </body>
+    body {
+      font-family:"Futura", sans-serif;
+      margin: 0;
+      padding: 1.5em;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--bg-color, #f5f5f5);
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .hero {
+      background-color: var(--bg-color-secondary, #fff);
+      border-radius: 0.5em;
+      padding: 1.5em;
+      box-shadow: 0 0.3em 0.2em rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-bottom: 1.5em;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .hero h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      color: var(--text-color);
+    }
+    .hero p {
+      color: var(--text-color);
+    }
+
+    .content {
+      text-align: center;
+      line-height: 1.5em;
+      color: var(--text-color);
+      margin: 0 auto;
+    }
+
+    .content img {
+      border-radius: 0.5em;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      margin-top: 1.5em;
+      font-size: 0.9em;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: var(--text-color);
+      padding: 0.4em 0.7em;
+      border: 1px solid var(--border-color, #000);
+      border-radius: 0.5em;
+      margin-right: 0.7em;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .contact a:hover {
+      background-color: var(--text-color, #000);
+      color: var(--bg-color-secondary, #FFF);
+    }
+    
+    .legal {
+      color: var(--bg-color-secondary, #FFF);
+    }
+
+    /* Media query for dark mode */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #222;
+        --bg-color-secondary: #333;
+        --text-color: #fff;
+        --border-color: #444;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>FlatPonch's Website</h1>
+    <p>This is a website created with a single HTML file.</p>
+  </div>
+  <div class="content">
+    <p>There is no content here yet.</p>
+    <img src="./Images/0250bc4a-1f0c-43b2-95fd-5572f87e2dbb.jpg" alt="Paimon Image" width="300" height="300">
+    <img src="./Images/20240229_181044.jpg" alt="Cute Puppies Image" width="300" height="300">
+  </div>
+  <div class="contact">
+    <a href="https://youtu.be/BbeeuzU5Qc8">Click Me</a>
+    <a href="https://flatponch.xyz/jp">日本語サイト</a>
+    <a href="https://bsky.app/profile/flatponch.xyz">Bluesky</a>
+    <a href="https://flatponch.xyz/discord">Discord</a>
+    <a href="https://linktr.ee">More Social Medias</a>
+  </div>
+  <div class="legal">
+    <p>2024 FlatPonch</p>
+    <p>Super Thanks to design this website</p>
+    <a href="https://kosasho.github.io">Kosasho</a>
+</body>
 </html>
