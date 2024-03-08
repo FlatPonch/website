@@ -74,7 +74,22 @@
     }
     
     .legal {
-      color: var(--bg-color-secondary, #FFF);
+      background-color: var(--bg-color-secondary, #fff);
+      border-radius: 0.5em;
+      padding: 1.5em;
+      box-shadow: 0 0.3em 0.2em rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-bottom: 1.5em;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .legal h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      color: var(--text-color);
+    }
+    .legal p {
+      color: var(--text-color);
     }
 
     /* Media query for dark mode */
@@ -103,7 +118,7 @@
     <a href="https://flatponch.xyz/jp">日本語サイト</a>
     <a href="https://bsky.app/profile/flatponch.xyz">Bluesky</a>
     <a href="https://flatponch.xyz/discord">Discord</a>
-    <a href="https://linktr.ee">More Social Medias</a>
+    <a href="https://linktr.ee">Linktree</a>
   </div>
   <div class="legal">
     <p>2024 FlatPonch</p>
