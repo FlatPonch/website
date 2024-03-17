@@ -6,6 +6,6 @@
 
 ## Videos
 
-![shibatarie1柴田理恵釣り1](https://flatponch.xyz/Images/shibata.mp4)
+<div><video controls src="https://flatponch.xyz/Images/shibata.mp4" muted="false"></video></div>
 
-![shibatarie2柴田理恵釣り2](https://flatponch.xyz/Images/shibatarie.mp4)
+<div><video controls src="https://flatponch.xyz/Images/shibatarie.mp4" muted="false"></video></div>

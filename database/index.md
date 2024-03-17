@@ -1,5 +1,5 @@
-# FlatPonch Database
+# FlatPonch's Database
 
-## Images
+[Images](https://flatponch.xyz/database/images/)
 
-![Fonts](https://flatponch.xyz/database/images/)
+[Fonts](https://flatponch.xyz/database/fonts/)
