@@ -7,8 +7,8 @@
 ## Videos
 Beaver A better Tommorow with Simplified Chinese(aka Chinese Beaver meme)
 
-<div><video controls src="https://flatponch.xyz/Images/chinese%20beaver.mp4" muted="false"></video></div>
+<div><video controls src="https://flatponch.xyz/Images/chinese%20beaver.mp4" width="500"></video></div>
 
 柴田理恵
 
-<div><video controls src="https://flatponch.xyz/Images/shibata.mp4" muted="false"></video></div>
+<div><video controls src="https://flatponch.xyz/Images/shibata.mp4" width="500"></video></div>
