@@ -2,7 +2,7 @@
 
 ### Bluesky
 
-https://bsky.app/profile/flatponch.xyz
+[Bluesky](https://bsky.app/profile/flatponch.xyz)
 
 ### Instagram&Threads
 
