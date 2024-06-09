@@ -4,8 +4,8 @@
 
 website:https://flatponch.github.io
 
+database:https://flatponch.github.io/database
+
 discord server:https://flatponch.github.io/discord/
 
 kotiriku server:https://flatponch.github.io/discord/kotiriku
-
-[click me](https://flatponch.github.io/lol)
