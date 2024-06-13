@@ -6,6 +6,10 @@
 
 [RABBIT Platoon(from Blue Archive) ClearVision(based v6.9.0)](https://flatponch.xyz/vencord/ClearVision.v6.FlatPonch.css)
 
+## How to install?
+
+[google](https://www.google.com/search?q=vencord+theme+how+to+install) it
+
 ## Download and Install Vencord(if you dont have it)
 
 ### IMPORTANT BEFORE DOWNLOAD AND INSTALL
