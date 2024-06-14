@@ -1,6 +1,6 @@
 /**
  * @name FlatPonch's ClearVision (RABBIT Platoon Edition)
- * @author FlatPonch
+ * @author FlatPonch(maybe)
  * @version 6.9.0
  * @description huge Thanks to Zerthox for creating amazing theme
  * @source https://github.com/ClearVision/ClearVision-v6
@@ -12,7 +12,15 @@
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
 
 /* IMPORT FONTS(for main font) */
-@import url(https://flatponch.xyz/fonts/);
+@font-face {
+  font-family:"HarmonyOS Sans";
+  src: url(https://github.com/FlatPonch/flatponch.github.io/raw/main/fonts/HarmonyOS_Sans_Medium.ttf) format(truetype);
+}
+@import url(https://raw.githubusercontent.com/sakura-tel/koruri/master/koruri.css);
+@font-face {
+  font-family:"Jigmo";
+  src: url(https://flatponch.xyz/fonts/Jigmo2.ttf) format(truetype);
+}
 
 /* SETTINGS */
 :root {
@@ -41,7 +49,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://flatponch.xyz/Images/RABBIT.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg) [Source: url(https://www.pixiv.net/en/artworks/113612055)]*/
+  --background-image: url(https://flatponch.xyz/Images/RABBIT.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)  [Source: url(https://www.pixiv.net/en/artworks/113612055)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -55,7 +63,7 @@
   --background-blur: 0px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
-  --home-icon: url(https://flatponch.xyz/vencord/Rabbit_Platoon.webp); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/ 
+  --home-icon: url(https://flatponch.xyz/Images/Rabbit_Platoon.webp); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/ 
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
   /* if you have a nitro(not basic), you can change home button icon in user settings --> appearance --> in-app icon. */

@@ -12,6 +12,15 @@
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
 
 /* IMPORT FONTS(for main font) */
+@font-face {
+  font-family:"HarmonyOS Sans";
+  src: url(https://github.com/FlatPonch/flatponch.github.io/raw/main/fonts/HarmonyOS_Sans_Medium.ttf) format(truetype);
+}
+@import url(https://raw.githubusercontent.com/sakura-tel/koruri/master/koruri.css);
+@font-face {
+  font-family:"Jigmo";
+  src: url(https://flatponch.xyz/fonts/Jigmo2.ttf) format(truetype);
+}
 
 /* SETTINGS */
 :root {
