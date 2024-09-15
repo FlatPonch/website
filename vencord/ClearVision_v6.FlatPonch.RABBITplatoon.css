@@ -13,7 +13,7 @@
 /* IMPORT FONTS(for main font) */
 @font-face {
   font-family:"HarmonyOS Sans";
-  src: url(https://github.com/FlatPonch/website/raw/main/fonts/HarmonyOS_Sans_Medium.ttf) format(truetype);
+  src: url(https://github.com/FlatPonch/website/raw/main/fonts/HarmonyOS_Sans_Regular.ttf) format(truetype);
 }
 @import url(https://raw.githubusercontent.com/sakura-tel/koruri/master/koruri.css);
 @font-face {
