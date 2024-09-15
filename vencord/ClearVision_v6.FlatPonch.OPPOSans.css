@@ -2,19 +2,19 @@
  * @name FlatPonch's ClearVision(OPPO Sans)
  * @author FlatPonch
  * @version 6.9.0
- * @description Ultimate Customizable Theme for BD|VC
+ * @description
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://flatponch.xyz
  * @invite zXM7v6gU2j
  */
 
-/* IMPORT CSS */
+/* IMPORT MAIN CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
 
 /* IMPORT FONTS(for main font) */
 @font-face {
   font-family:"OPPO Sans";
-  src: url(https://raw.githubusercontent.com/Kosasho/Kosasho.github.io/main/OPPOSans-Regular.ttf) format(truetype);
+  src: url(https://raw.githubusercontent.com/sora-amagiri/sora-amagiri.github.io/main/OPPOSans-Regular.ttf) format(truetype);
 }
 @import url(https://raw.githubusercontent.com/sakura-tel/koruri/master/koruri.css);
 @font-face {
