@@ -10,8 +10,8 @@
     <title>FlatPonch's Website</title>
     <style>
         @font-face {
-            font-family: "Evolve Sans";
-            src: url("./fonts/MADEEvolveSansRegular.otf") format("opentype");
+            font-family: "MiSans";
+            src: url("./fonts/MiSans-Regular.ttf") format("truetype");
         }
 
         :root {
@@ -31,10 +31,12 @@
         }
 
         body {
-            font-family: "Evolve Sans", sans-serif;
+            font-family: "MiSans", sans-serif;
             margin: 0;
             padding: 0;
             background-color: var(--bg-color);
+            background-image: url("./Images/Kisaki.png");
+            background-size: cover;
             color: var(--text-color);
             transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
             line-height: 1.6;
@@ -80,21 +82,6 @@
 
         .content {
             text-align: center;
-        }
-
-        .image-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
-            gap: 1em;
-            margin: 1em 0;
-        }
-
-        .image-gallery img {
-            border-radius: 0.5em;
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            aspect-ratio: 1 / 1;
         }
 
         .contact {
@@ -162,22 +149,7 @@
                 I Play Blue Archive, Valorant and Delta Force(placeholder)(my main platform is PC.)<br>
                 I love to use Realme, Nothing and Others. 📱
             </p>
-            <p>I just added a sticky header for practice.</p>
-
-            <div class="image-gallery">
-                <a href="https://www.pixiv.net/en/artworks/86325509" target="_blank">
-                    <img src="./Images/kl_genshin201215.gif" alt="Klee(Genshin Impact) Animated Stamp by seseren" loading="lazy">
-                </a>
-                <a href="https://www.pixiv.net/en/artworks/97787966" target="_blank">
-                    <img src="./Images/my_blue220421.gif" alt="Kasumizawa Miyu(Blue Archive) Animated Stamp by seseren" loading="lazy">
-                </a>
-                <a href="https://www.pixiv.net/en/artworks/100088526" target="_blank">
-                    <img src="./Images/nhd_genshin220729.gif" alt="Nahida(Genshin Impact) Animated Stamp by seseren" loading="lazy">
-                </a>
-                <a href="https://www.youtube.com/results?search_query=mutsuki+kuhuhu" target="_blank">
-                    <img src="./Images/images(10).jpg" alt="Asagi Mutsuki(Blue Archive)" loading="lazy">
-                </a>
-            </div>
+            <p>I just set transparent all for background.</p>
             
             <div class="spotify">
                 <p>Spotify Now Playing:</p>
