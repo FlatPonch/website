@@ -17,17 +17,8 @@
         :root {
             --bg-color: #f5f5f5;
             --bg-color-secondary: #fff;
-            --text-color: #333;
+            --text-color: #fff;
             --border-color: #000;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg-color: #222;
-                --bg-color-secondary: #333;
-                --text-color: #fff;
-                --border-color: #444;
-            }
         }
 
         body {
@@ -41,6 +32,12 @@
             transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
             line-height: 1.6;
             font-size: calc(14px + 0.390625vw);
+        }
+
+        @media (orientation: portrait) {
+            body {
+                background-image: url("./Images/Kisaki-vert.png");
+            }
         }
 
         .container {
@@ -171,7 +168,8 @@
         <div class="container">
             <p>2024 FlatPonch
                 <p><a href="https://sora-amagiri.github.io">Sora Amagiri(Sora)</a>(design idea from my friend's website)</p>
-                <p><a href="old/index.html">Go back to old design of my website</a></p>
+                <p><a href="old/index.html">Go back to old design of my website design</a></p>
+                <p><a href="https://www.pixiv.net/en/artworks/113257076">Vertical background image source</a></p>
             </p>
         </div>
     </footer>
